@@ -1,0 +1,32 @@
+.tile
+	height: 100px
+	width: 100px
+	margin-top: 30px
+	outline: none
+	border: 2px solid black
+	transition: opacity 200ms ease
+	&:active
+		border: 2px solid grey
+.topL
+	@extend .tile
+	float: right
+	border-top-left-radius: 50px
+	background-color: green
+.topR
+	@extend .tile
+	border-top-right-radius: 50px
+	background-color: red
+.botL
+	@extend .tile
+	float: right
+	border-bottom-left-radius: 50px
+	background-color: yellow
+.botR
+	@extend .tile
+	border-bottom-right-radius: 50px
+	background-color: blue
+.box
+	margin-top: 50px
+	background-color: #eee
+	padding-bottom: 20px
+	border-radius: 100px

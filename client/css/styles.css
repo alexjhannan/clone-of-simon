@@ -1,0 +1,77 @@
+body {
+  background-color: #333; }
+
+h1 {
+  color: #333;
+  background-color: #ddd;
+  border-radius: 5px; }
+
+.tile, .topL, .topR, .botL, .botR {
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  outline: none;
+  border: 2px solid black;
+  transition: opacity 200ms ease; }
+  .tile:active, .topL:active, .topR:active, .botL:active, .botR:active {
+    border: 2px solid grey; }
+
+.topL {
+  float: right;
+  border-top-left-radius: 50px;
+  background-color: green; }
+
+.topR {
+  border-top-right-radius: 50px;
+  background-color: red; }
+
+.botL {
+  float: right;
+  border-bottom-left-radius: 50px;
+  background-color: yellow; }
+
+.botR {
+  border-bottom-right-radius: 50px;
+  background-color: blue; }
+
+.box {
+  margin-top: 50px;
+  background-color: #eee;
+  padding-bottom: 20px;
+  border-radius: 100px; }
+
+.options {
+  background-color: #ccc;
+  border-radius: 0 0 20px 20px;
+  border-top: solid #333 2px; }
+  .options button {
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #333;
+    color: #ddd;
+    margin-bottom: 15px;
+    outline: none;
+    border: solid 2px #333; }
+    .options button:active {
+      border: solid 2px #ddd; }
+
+.lit {
+  opacity: 0.4; }
+
+#counter {
+  background-color: #333;
+  color: #ddd;
+  margin-top: 20px;
+  border-radius: 5px; }
+
+#strict-warning {
+  background-color: #ccc;
+  color: #333;
+  margin-top: 15px;
+  padding-top: 5px;
+  border-radius: 20px 20px 0 0;
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */

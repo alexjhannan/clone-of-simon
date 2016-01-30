@@ -1,0 +1,23 @@
+{
+  "name": "simon-clone",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "dasbuuten <alexjhannan@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "howler.js": "howler#~1.1.29"
+  }
+}

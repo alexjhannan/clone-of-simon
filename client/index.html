@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+	<title>Clone of Simon</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/howler.js/howler.js"></script>
+	<script src="js/simon.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-sm-4 col-sm-offset-4 text-center">
+				<h1>Clone of Simon</h1>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 box">
+				<div class="col-xs-6">
+					
+					<button class="topL" data-btn="1"></button>
+
+				</div>
+				<div class="col-xs-6">
+					
+					<button  class="topR" data-btn="2"></button>
+
+				</div>
+				<div class="col-xs-6">
+					
+					<button class="botL" data-btn="4"></button>
+
+				</div>
+				<div class="col-xs-6">
+					
+					<button class="botR" data-btn="3"></button>
+
+				</div>
+				<div class="col-xs-12">
+
+					<div class="col-xs-2 col-xs-offset-5 text-center" id="counter" data-id="counter">0</div>
+				
+				</div>
+			</div>
+
+
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3 text-center options">
+				<div class="row">
+
+					<div class="col-xs-4">
+						<button data-btn="mode">Normal</button>
+					</div>
+
+					<div class="col-xs-4">
+						<button data-btn="start">Start</button>
+					</div>
+
+					<div class="col-xs-4">
+						<button data-btn="reset">Reset</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+		<div id="strict-warning" class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 text-center">
+			<p>Start over on every incorrect guess.</p>
+		</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
