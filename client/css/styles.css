@@ -1,5 +1,6 @@
 body {
-  background-color: #333; }
+  background-color: #333;
+  font-family: monospace; }
 
 h1 {
   color: #333;
@@ -47,8 +48,8 @@ h1 {
   .options button {
     margin-top: 15px;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     background-color: #333;
     color: #ddd;
     margin-bottom: 15px;
