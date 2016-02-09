@@ -155,7 +155,7 @@
 					var count = simon.incrementCount();
 
 					if (count === simon.sequence.length+''){
-						return count === 5+'' ? simon.victory() : simon.start();
+						return count === 20+'' ? simon.victory() : simon.start();
 					} else {
 						return simon.playerTurn();
 					}
